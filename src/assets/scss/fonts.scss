@@ -1,0 +1,13 @@
+$font_path: '../fonts/';
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url($font_path +'Montserrat-Regular.eot');
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+  url($font_path +'Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+  url($font_path +'Montserrat-Regular.woff2') format('woff2'),
+  url($font_path +'Montserrat-Regular.woff') format('woff'),
+  url($font_path +'Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,51 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+  width: 100%;
+  &__header {
+    display: inherit;
+    align-items: center;
+    gap: 10px;
+  }
+  &__type {
+    &_price {
+      h4 {
+        text-transform: uppercase;
+      }
+      .multi-range-slider ::v-deep {
+        border: none;
+        box-shadow: none;
+        max-width: 280px;
+        .ruler {
+          display: none;
+        }
+        .bar-inner-right,
+        .bar-inner-left {
+          background-color: #9a9a9a;
+        }
+      }
+      &_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #171616;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7;
+  text-transform: uppercase;
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #808080;
+  }
+}

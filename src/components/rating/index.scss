@@ -1,0 +1,29 @@
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+  opacity: 0.7;
+
+  &__stars {
+    position: relative;
+    white-space: nowrap;
+    svg {
+      fill: gold;
+      width: 20px;
+    }
+  }
+  &__cover {
+    background: white;
+    height: 100%;
+    overflow: hidden;
+    mix-blend-mode: color;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  p {
+    font-size: 12px;
+  }
+}

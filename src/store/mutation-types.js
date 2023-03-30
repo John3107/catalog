@@ -1,0 +1,4 @@
+export const SET_PRODUCTS = "SET_PRODUCTS";
+export const SET_CATEGORIES = "SET_CATEGORIES";
+export const SET_LOADER = "SET_LOADER";
+export const SET_CURRENT_PRODUCT = "SET_CURRENT_PRODUCT";
