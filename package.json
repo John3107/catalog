@@ -1,5 +1,6 @@
 {
   "name": "catalog",
+  "homepage": "https://catalog-brown.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
